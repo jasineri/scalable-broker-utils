@@ -10,7 +10,7 @@ var scalableBroker = (function () {
      * Get finished transactions list as CSV
      */
     function exportTransactions() {
-        let transactions = 'date;ISIN;type;quantity;price\n';
+        let transactions = 'Date;ISIN;Type;Quantity;Price\n';
         let nextData = JSON.parse(jQuery('#__NEXT_DATA__')[0].innerHTML)['props']['pageProps']['middlewareProps']['m8']['initialQueryResult'];
         jQuery.each(nextData, function (index, value) {
             if (index.startsWith('BrokerSecurityTransaction') && value['isCancellationRequested'] === false && value['finalisationReason'] === 'FILLED') {
