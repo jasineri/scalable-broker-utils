@@ -3,13 +3,13 @@
  * 1. Navigate to https://de.scalable.capital/broker/transactions
  * 2. Just copy and paste content of this script in the development console of your browser
  *
- * @type {{getTransactions: scalableBroker.getTransactions}}
+ * @type {{exportTransactions: scalableBroker.exportTransactions}}
  */
 var scalableBroker = (function () {
     /**
      * Get finished transactions list as CSV
      */
-    function getTransactions() {
+    function exportTransactions() {
         let transactions = 'date;ISIN;type;quantity;price\n';
         let nextData = JSON.parse(jQuery('#__NEXT_DATA__')[0].innerHTML)['props']['pageProps']['middlewareProps']['m8']['initialQueryResult'];
         jQuery.each(nextData, function (index, value) {
@@ -60,12 +60,12 @@ var scalableBroker = (function () {
     }
 
     return {
-        getTransactions: function () {
+        exportTransactions: function () {
             checkJQuery(function () {
-                getTransactions();
+                exportTransactions();
             });
         }
     };
 })();
 
-scalableBroker.getTransactions();
+scalableBroker.exportTransactions();

@@ -1,6 +1,9 @@
 # Scalable Broker utilities
 
-## getTransactions
+Scalable Broker web app has no functionality to export transactions list,
+so this is my attempt to get one :) 
+
+## exportTransactions
 
 Usage:
 1. Navigate to https://de.scalable.capital/broker/transactions
@@ -8,4 +11,4 @@ Usage:
 3. Save the CSV    
 
 
-* Undocumented Scalable Broker API *
+*Undocumented Scalable Broker API*
