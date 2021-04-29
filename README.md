@@ -7,7 +7,7 @@ so this is my attempt to get one :)
 
 Usage:
 1. Navigate to https://de.scalable.capital/broker/transactions
-2. Just copy and paste content of the scalable-broker.js into development console of your browser
+2. Just copy and paste content of the [scalable-broker.js](src/scalable-broker.js) into development console of your browser
 3. Save the CSV    
 
 
