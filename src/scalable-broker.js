@@ -24,8 +24,8 @@ var scalableBroker = (function () {
                 let type = value['side'];
                 let quantity = nextData[value['numberOfShares']['id']]['filled'];
                 let amount = (('BUY' === type) ? '-1' : '1') * value['totalAmount'];
-                let price = Math.abs(amount / quantity).toString().replace('.', ',');
-                transactions += date + ';' + ISIN + ';' + type + ';' + quantity + ';' + price + ';' + amount + '\n';
+                let price = Math.abs(amount / quantity);
+                transactions += date + ';' + ISIN + ';' + type + ';' + quantity + ';' + price.toLocaleString('de-DE') + ';' + amount.toLocaleString('de-DE') + '\n';
             }
         });
         download('transactions.csv', transactions);
