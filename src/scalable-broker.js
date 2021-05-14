@@ -15,7 +15,7 @@ var scalableBroker = (function () {
      * Get finished transactions list as CSV
      */
     function exportTransactions() {
-        let transactions = 'Date;ISIN;Type;Quantity;Price\n';
+        let transactions = 'Date;ISIN;Type;Quantity;Price;Amount\n';
         let nextData = JSON.parse(jQuery('#__NEXT_DATA__')[0].innerHTML)['props']['pageProps']['middlewareProps']['m8']['initialQueryResult'];
         jQuery.each(nextData, function (index, value) {
             if (index.startsWith('BrokerSecurityTransaction') && value['isCancellationRequested'] === false && value['finalisationReason'] === 'FILLED') {
@@ -23,8 +23,9 @@ var scalableBroker = (function () {
                 let ISIN = value['security']['id'].split(':')[1];
                 let type = value['side'];
                 let quantity = nextData[value['numberOfShares']['id']]['filled'];
-                let price = value['totalAmount'] / quantity;
-                transactions += date + ';' + ISIN + ';' + type + ';' + quantity + ';' + price.toString().replace('.', ',') + '\n';
+                let amount = (('BUY' === type) ? '-1' : '1') * value['totalAmount'];
+                let price = Math.abs(amount / quantity).toString().replace('.', ',');
+                transactions += date + ';' + ISIN + ';' + type + ';' + quantity + ';' + price + ';' + amount + '\n';
             }
         });
         download('transactions.csv', transactions);
