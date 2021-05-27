@@ -1,4 +1,6 @@
 /**
+ * @license Scalable Broker utilities v0.2.0
+ *
  * The Scalable Broker web application does not have any functionality for exporting transaction lists, so this is my attempt to get one :)
  *
  * exportTransactions
@@ -8,7 +10,7 @@
  * 2. Just copy and paste content of the scalable-broker.js into development console of your browser
  * 3. Save the CSV
  *
- * @type {{exportTransactions: scalableBroker.exportTransactions}}
+ * @type {{exportTransactions: scalableBroker.exportTransactions, cancelOrder: scalableBroker.cancelOrder}}
  */
 var scalableBroker = (function () {
     /**
@@ -29,6 +31,32 @@ var scalableBroker = (function () {
             }
         });
         download('transactions.csv', transactions);
+    }
+
+    /**
+     * Cancels the order by orderId. The request response is returned per callback function.
+     * @param portfolioId BrokerPortfolio.Id
+     * @param orderId BrokerSecurityTransaction.Id
+     */
+    function cancelOrder(portfolioId, orderId) {
+        var xhr = new XMLHttpRequest();
+        var url = "https://de.scalable.capital/broker/graphql";
+        xhr.open("POST", url, true);
+        xhr.setRequestHeader("content-type", "application/json");
+        var authCookie = document.cookie.match(new RegExp('(^| )access_token=([^;]+)'))[2];
+        xhr.setRequestHeader('authorization', 'Bearer ' + authCookie);
+        var callback = arguments[arguments.length - 1];
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                callback(xhr.responseText);
+            }
+        };
+        var data = JSON.stringify([{
+            "operationName": "cancelOrder",
+            "variables": {"portfolioId": portfolioId, "input": {"orderId": orderId}},
+            "query": "mutation cancelOrder($portfolioId: ID!, $input: CancelBrokerOrderInput!) {\n  cancelOrder(input: $input, portfolioId: $portfolioId) {\n    id\n    __typename\n  }\n}\n"
+        }]);
+        xhr.send(data);
     }
 
     function checkJQuery(callback) {
@@ -70,6 +98,9 @@ var scalableBroker = (function () {
             checkJQuery(function () {
                 exportTransactions();
             });
+        },
+        cancelOrder: function (portfolioId, orderId) {
+            cancelOrder(portfolioId, orderId);
         }
     };
 })();
