@@ -21,6 +21,6 @@ Usage:
 
 Usage:
 1. Navigate to https://de.scalable.capital/broker
-2. call scalableBroker.cancelOrder('<put BrokerPortfolio.Id here>', '<put BrokerSecurityTransaction.Id here>')
+2. call scalableBroker.cancelOrder(`BrokerPortfolioId`, `BrokerSecurityTransactionId`). Make sure to use real Ids as arguments!
    
 *Undocumented Scalable Broker API*
