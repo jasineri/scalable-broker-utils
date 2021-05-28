@@ -1,6 +1,6 @@
 # Scalable Broker utilities
 
-The Scalable Broker web application has a very limited functionality for exporting of transaction list,
+The Scalable Broker web application has a very limited functionality for daily life activities, for example exporting of transaction list,
 so this is my attempt to enhance it :)
 
 Release Notes
