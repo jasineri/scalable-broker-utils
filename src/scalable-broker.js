@@ -1,7 +1,8 @@
 /**
  * @license Scalable Broker utilities v0.2.0
  *
- * The Scalable Broker web application does not have any functionality for exporting transaction lists, so this is my attempt to get one :)
+ * The Scalable Broker web application has a very limited functionality for daily life activities, for example like exporting of transaction list,
+ * so this is my attempt to enhance it :)
  *
  * exportTransactions
  *
