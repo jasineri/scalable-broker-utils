@@ -1,0 +1,26 @@
+Die Firefox-Erweiterung wurde entwickelt, um die Funktionalität von Scalable Broker durch Hinzufügen einer spezifischen Funktion zu verbessern. Sie ermöglicht es Benutzern, abgelaufene Verkaufsorders zu reaktivieren und einen Limitpreis festzulegen. Diese zusätzliche Funktionalität zielt darauf ab, das allgemeine Benutzererlebnis zu verbessern und mehr Kontrolle über Handelsaktivitäten auf der Plattform zu bieten.
+Verwendung:
+1. Installiere die Firefox-Erweiterung:
+◦ Besuche die URL "https://addons.mozilla.org/de/firefox/addon/scalable-broker-utils/".
+◦ Auf der Webseite siehst du einen Button "Zu Firefox hinzufügen". Klicke darauf.
+◦ Ein Pop-up-Fenster wird angezeigt, das Informationen über die Erweiterung enthält. Überprüfe die Details und vergewissere dich, dass es die richtige Erweiterung ist, die du installieren möchtest.
+◦ Klicke auf die Schaltfläche "Hinzufügen", um den Installationsprozess zu starten.
+◦ Firefox wird die Erweiterung nun herunterladen und installieren. Du siehst möglicherweise eine Fortschrittsanzeige, die den Installationsstatus anzeigt.
+◦ Sobald die Installation abgeschlossen ist, wird eine Benachrichtigung angezeigt, die darauf hinweist, dass die Erweiterung erfolgreich zu Firefox hinzugefügt wurde.
+◦ Optional wirst du möglicherweise aufgefordert, deinen Browser neu zu starten, um die Erweiterung zu aktivieren. Wenn du dazu aufgefordert wirst, klicke auf die Schaltfläche "Jetzt neu starten", um die Installation abzuschließen.
+◦ Nach dem Neustart des Browsers ist die Erweiterung aktiv und einsatzbereit.
+2. Öffne die abgelaufene Verkaufsorder:
+◦ Auf der Scalable Capital-Website finde und öffne die abgelaufene Verkaufsorder, die du erneut platzieren möchtest.
+3. "Resell"-Schaltfläche:
+◦ Nach dem Öffnen der abgelaufenen Verkaufsorder solltest du eine "Erneut verkaufen"-Schaltfläche sehen.
+◦ Diese Schaltfläche wird durch die Firefox-Erweiterung hinzugefügt.
+◦ Klicke auf die "Resell"-Schaltfläche.
+4. Neues Verkaufsorder-Formular:
+◦ Wenn du auf die "Resell"-Schaltfläche klickst, wird ein neues Verkaufsorder-Formular geöffnet.
+◦ Falls der Verkauf der Aktie erlaubt ist (basierend auf den Regeln der Plattform), wird das Formular mit der Stückzahl und dem Limitpreis aus der abgelaufenen Verkaufsorder vorausgefüllt.
+◦ Überprüfe die vorausgefüllten Details des Verkaufsorder-Formulars, um sicherzustellen, dass sie deinen Anforderungen entsprechen.
+◦ Falls erforderlich, kannst du Anpassungen an der Stückzahl oder am Limitpreis im Formular vornehmen.
+5. Überprüfe und platziere die Verkaufsorder:
+◦ Überprüfe sorgfältig die Details des Verkaufsorder-Formulars, um sicherzustellen, dass sie korrekt sind.
+◦ Überprüfe die Stückzahl und den Limitpreis erneut, um sicherzustellen, dass sie deinen Erwartungen entsprechen.
+◦ Wenn alles in Ordnung aussieht, klicke auf die Schaltfläche "Verkaufen" oder "Sell", um die Verkaufsorder zu platzieren.
