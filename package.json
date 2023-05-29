@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "google-closure-compiler": "^20230502.0.0"
+  }
+}
