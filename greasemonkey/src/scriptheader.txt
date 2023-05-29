@@ -1,9 +1,0 @@
-// ==UserScript==
-// @name        utils.scalable
-// @author      jasineri @github.com/jasineri/scalable-broker-utils
-// @namespace   jasineri
-// @version
-// @downloadURL   https://raw.githubusercontent.com/jasineri/scalable-broker-utils/master/greasemonkey/src/utils.scalable.user.js
-// @description Enhancements on scalable.capital/broker: adds resell button to expired orders
-// @match       *://de.scalable.capital/*
-// ==/UserScript==
