@@ -4,7 +4,7 @@ The Scalable Broker web application has a very limited functionality for daily l
 so this is my attempt to enhance it :)
 
 ## Firefox extension
-### Reactivate expired sell orders will limit price (tested on Firefox v113)
+### Reactivate expired sell orders with limit price (tested on Firefox v113)
 Usage:
 1. Install the Firefox Extension:
    - Visit the URL "https://addons.mozilla.org/en-US/firefox/addon/scalable-broker-utils/".
