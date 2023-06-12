@@ -48,12 +48,20 @@ Usage:
 
 ## Release Notes
 
+Firefox extension version 0.1.3 - 2023-05-29
+
+Greasemonkey script version 0.1.3 - 2023-05-29
+
++ Enhancements to reactivate expired sell orders
+
 Firefox extension version 0.1.2 - 2023-05-22
+
 Greasemonkey script version 0.1.2 - 2023-05-22
 
 + Bugfix the feature to reactivate expired sell orders
 
 Firefox extension version 0.1.1 - 2023-05-19
+
 Greasemonkey script version 0.1.1 - 2023-05-19
 
 + Bugfix the feature to reactivate expired sell orders
