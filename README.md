@@ -50,6 +50,11 @@ Usage:
 
 Release Notes
 
+Firefox extension version 0.1.7 - 2024-10-03\
+Greasemonkey script version 0.1.7 - 2024-10-03
+
++ Add feature to reactivate rejected sell orders
+
 Firefox extension version 0.1.6 - 2024-03-01\
 Greasemonkey script version 0.1.6 - 2024-03-01
 

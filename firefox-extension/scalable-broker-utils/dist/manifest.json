@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Scalable Broker Utils",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "jasineri @github.com/jasineri/scalable-broker-utils",
   "description": "A Firefox extension to enhance the functionality of Scalable Broker. Adds reactivate expired sell orders functionality will limit price",
   "icons": {
