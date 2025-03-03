@@ -4,7 +4,7 @@ The Scalable Broker web application has a very limited functionality for daily l
 so this is my attempt to enhance it :)
 
 ## Firefox extension
-### Reactivate expired sell orders with price limit (tested on Firefox v113)
+### Reactivate expired/canceled sell orders with price limit (tested on Firefox v113)
 Usage:
 1. Install the Firefox Extension:
    - Visit the URL "https://addons.mozilla.org/en-US/firefox/addon/scalable-broker-utils/".
@@ -15,15 +15,15 @@ Usage:
    - Once the installation is complete, you will see a notification indicating that the extension has been successfully added to Firefox.
    - Optionally, you may be prompted to restart your browser to enable the extension. If prompted, click on the "Restart Now" button to complete the installation.
    - After the browser restarts, the extension will be active and ready to use.
-2. Open the Expired Order:
-   - On Scalable Capital website locate and open the expired order that you want to resell.
+2. Open the expired/canceled Order:
+   - On Scalable Capital website locate and open the expired/canceled order that you want to resell.
 3. "Resell" Button:
-   - After opening the expired order, you should see a "resell" button.
+   - After opening the expired/canceled order, you should see a "resell" button.
    - This button is added by the Firefox extension.
    - Click on the "resell" button.
 4. New Sell Order Form:
    - When you click the "resell" button, a new sell order form will be opened.
-   - If selling of the share is permitted (based on the platform's rules), the form will be pre-filled with the share amount and limit price from the expired order.
+   - If selling of the share is permitted (based on the platform's rules), the form will be pre-filled with the share amount and limit price from the expired/canceled order.
    - Review the pre-filled details of the sell order form to ensure they match your requirements.
    - If needed, you can make adjustments to the share amount or limit price in the form.
 5. Check and Execute the Order:
@@ -49,6 +49,11 @@ Usage:
 ## Release Notes
 
 Release Notes
+
+Firefox extension version 0.1.8 - 2025-03-03\
+Greasemonkey script version 0.1.8 - 2025-03-03
+
++ Add feature to reactivate canceled sell orders
 
 Firefox extension version 0.1.7 - 2024-10-03\
 Greasemonkey script version 0.1.7 - 2024-10-03
