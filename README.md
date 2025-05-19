@@ -50,6 +50,11 @@ Usage:
 
 Release Notes
 
+Firefox extension version 0.1.9 - 2025-05-19\
+Greasemonkey script version 0.1.9 - 2025-05-19
+
++ Correct click count button
+
 Firefox extension version 0.1.8 - 2025-03-03\
 Greasemonkey script version 0.1.8 - 2025-03-03
 
