@@ -3,15 +3,6 @@
 The Scalable Broker web application has a very limited functionality for daily life activities, for example like exporting of transaction list, or reactivating expired sell orders
 so this is my attempt to enhance it :)
 
-## Chrome extension
-### Reactivate expired/canceled sell orders with price limit (tested on Chrome v141)
-As I do not have a Google Developer account, I cannot upload this extension to the Chrome Web Store. You can still use it by loading it in unpacked mode:
-1. Open Chrome and go to chrome://extensions/.
-2. Enable Developer mode (toggle in the top-right corner).
-3. Click Load unpacked and select the folder: chrome-extension/scalable-broker-utils/dist
-
-The extension should now be active and ready to use.
-
 ## Firefox extension
 ### Reactivate expired/canceled sell orders with price limit (tested on Firefox v113)
 Usage:
@@ -39,6 +30,15 @@ Usage:
    - Carefully review the details of the sell order form to ensure they are correct.
    - Double-check the share amount and limit price to make sure they meet your expectations.
    - If everything looks good, click the "Sell" or "Verkaufen" button to place the sell order.
+
+## Chrome extension
+### Reactivate expired/canceled sell orders with price limit (tested on Chrome v141)
+As I do not have a Google Developer account, I cannot upload this extension to the Chrome Web Store. You can still use it by loading it in unpacked mode:
+1. Open Chrome and go to chrome://extensions/.
+2. Enable Developer mode (toggle in the top-right corner).
+3. Click Load unpacked and select the folder: chrome-extension/scalable-broker-utils/dist
+
+The extension should now be active and ready to use.
 
 ## Vanilla JavaScript
 ### exportTransactions
