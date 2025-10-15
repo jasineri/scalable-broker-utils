@@ -8,28 +8,28 @@ so this is my attempt to enhance it :)
 Usage:
 1. Install the Firefox Extension:
    - Visit the URL https://addons.mozilla.org/en-US/firefox/addon/scalable-broker-utils/.
-   - On the webpage, you will see an "Add to Firefox" button. Click on it.
+   - On the webpage, you will see an `Add to Firefox` button. Click on it.
    - A pop-up window will appear, displaying information about the extension. Review the details and make sure it is the correct extension you want to install.
-   - Click on the "Add" button to start the installation process.
+   - Click on the `Add` button to start the installation process.
    - Firefox will now download and install the extension. You may see a progress bar indicating the installation status.
    - Once the installation is complete, you will see a notification indicating that the extension has been successfully added to Firefox.
-   - Optionally, you may be prompted to restart your browser to enable the extension. If prompted, click on the "Restart Now" button to complete the installation.
+   - Optionally, you may be prompted to restart your browser to enable the extension. If prompted, click on the `Restart Now` button to complete the installation.
    - After the browser restarts, the extension will be active and ready to use.
 2. Open the expired/canceled Order:
    - On Scalable Capital website locate and open the expired/canceled order that you want to resell.
-3. "Resell" Button:
-   - After opening the expired/canceled order, you should see a "resell" button.
+3. `Resell` Button:
+   - After opening the expired/canceled order, you should see a `Resell` button.
    - This button is added by the Firefox extension.
-   - Click on the "resell" button.
+   - Click on the `Resell` button.
 4. New Sell Order Form:
-   - When you click the "resell" button, a new sell order form will be opened.
+   - When you click the `Resell` button, a new sell order form will be opened.
    - If selling of the share is permitted (based on the platform's rules), the form will be pre-filled with the share amount and limit price from the expired/canceled order.
    - Review the pre-filled details of the sell order form to ensure they match your requirements.
    - If needed, you can make adjustments to the share amount or limit price in the form.
 5. Check and Execute the Order:
    - Carefully review the details of the sell order form to ensure they are correct.
    - Double-check the share amount and limit price to make sure they meet your expectations.
-   - If everything looks good, click the "Sell" or "Verkaufen" button to place the sell order.
+   - If everything looks good, click the `Sell` or `Verkaufen` button to place the sell order.
 
 ## Chrome extension
 ### Reactivate expired/canceled sell orders with price limit (tested on Chrome v141)
