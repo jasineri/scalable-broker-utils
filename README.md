@@ -7,7 +7,7 @@ so this is my attempt to enhance it :)
 ### Reactivate expired/canceled sell orders with price limit (tested on Firefox v113)
 Usage:
 1. Install the Firefox Extension:
-   - Visit the URL "https://addons.mozilla.org/en-US/firefox/addon/scalable-broker-utils/".
+   - Visit the URL https://addons.mozilla.org/en-US/firefox/addon/scalable-broker-utils/.
    - On the webpage, you will see an "Add to Firefox" button. Click on it.
    - A pop-up window will appear, displaying information about the extension. Review the details and make sure it is the correct extension you want to install.
    - Click on the "Add" button to start the installation process.
@@ -33,10 +33,10 @@ Usage:
 
 ## Chrome extension
 ### Reactivate expired/canceled sell orders with price limit (tested on Chrome v141)
-As I do not have a Google Developer account, I cannot upload this extension to the Chrome Web Store. You can still use it by loading it in unpacked mode:
-1. Open Chrome and go to chrome://extensions/.
-2. Enable Developer mode (toggle in the top-right corner).
-3. Click Load unpacked and select the folder: chrome-extension/scalable-broker-utils/dist
+As I do not have a Google Developer account, I cannot upload this extension to the **Chrome Web Store**. You can still use it by loading it in unpacked mode:
+1. Open Chrome and go to [`chrome://extensions/`](chrome://extensions/).
+2. Enable **Developer mode** (toggle in the top-right corner).
+3. Click **Load unpacked** and select the folder: chrome-extension/scalable-broker-utils/dist
 
 The extension should now be active and ready to use.
 
