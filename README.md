@@ -13,7 +13,7 @@ Usage:
    - Click on the `Add` button to start the installation process.
    - Firefox will now download and install the extension. You may see a progress bar indicating the installation status.
    - Once the installation is complete, you will see a notification indicating that the extension has been successfully added to Firefox.
-   - Optionally, you may be prompted to restart your browser to enable the extension. If prompted, click on the `Restart Now` button to complete the installation.
+   - Optionally, you may be prompted to restart your browser to enable the extension. If prompted, click on the `Restart Firefox` button to complete the installation.
    - After the browser restarts, the extension will be active and ready to use.
 2. Open the expired/canceled Order:
    - On Scalable Capital website locate and open the expired/canceled order that you want to resell.
