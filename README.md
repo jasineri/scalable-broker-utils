@@ -53,7 +53,7 @@ Usage:
 Usage:
 1. Navigate to https://de.scalable.capital/broker.
 2. Just copy and paste content of the [scalable-broker.js](src/scalable-broker.js) into development console of your browser.
-3. call util.cancelOrder(`BrokerPortfolioId`, `BrokerSecurityTransactionId`). Make sure to use real Ids as arguments!
+3. call *util.cancelOrder(\<BrokerPortfolioId\>, \<BrokerSecurityTransactionId\>)*. Make sure to use real Ids as arguments!
 
 ## Release Notes
 
