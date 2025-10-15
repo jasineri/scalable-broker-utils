@@ -36,7 +36,7 @@ Usage:
 As I do not have a Google Developer account, I cannot upload this extension to the **Chrome Web Store**. You can still use it by loading it in unpacked mode:
 1. Open Chrome and go to [`chrome://extensions/`](chrome://extensions/).
 2. Enable **Developer mode** (toggle in the top-right corner).
-3. Click **Load unpacked** and select the folder: *chrome-extension/scalable-broker-utils/dist*
+3. Click **Load unpacked** and select the folder: *chrome-extension/scalable-broker-utils/dist*.
 
 The extension should now be active and ready to use.
 
@@ -44,15 +44,15 @@ The extension should now be active and ready to use.
 ### exportTransactions
 
 Usage:
-1. Navigate to https://de.scalable.capital/broker/transactions
-2. Just copy and paste content of the [scalable-broker.js](src/scalable-broker.js) into development console of your browser
-3. Go back to the transactions' page and press `Export CSV` button    
+1. Navigate to https://de.scalable.capital/broker/transactions.
+2. Just copy and paste content of the [scalable-broker.js](src/scalable-broker.js) into development console of your browser.
+3. Go back to the transactions' page and press `Export CSV` button.  
 
 ### cancelOrder
 
 Usage:
-1. Navigate to https://de.scalable.capital/broker
-2. Just copy and paste content of the [scalable-broker.js](src/scalable-broker.js) into development console of your browser
+1. Navigate to https://de.scalable.capital/broker.
+2. Just copy and paste content of the [scalable-broker.js](src/scalable-broker.js) into development console of your browser.
 3. call util.cancelOrder(`BrokerPortfolioId`, `BrokerSecurityTransactionId`). Make sure to use real Ids as arguments!
 
 ## Release Notes
