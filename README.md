@@ -59,6 +59,11 @@ Usage:
 
 Release Notes
 
+Firefox extension version 0.1.10 - 2025-12-29\
+Greasemonkey script version 0.1.10 - 2025-12-29
+
++ Remember last exchange
+
 Firefox extension version 0.1.9 - 2025-05-19\
 Greasemonkey script version 0.1.9 - 2025-05-19
 
