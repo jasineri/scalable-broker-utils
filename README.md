@@ -59,6 +59,11 @@ Usage:
 
 Release Notes
 
+Firefox extension version 0.1.11 - 2026-09-02\
+Greasemonkey script version 0.1.11 - 2026-09-02
+
++ Hardcode the exchange to European Investor Exchange (EIX)
+
 Firefox extension version 0.1.10 - 2025-12-29\
 Greasemonkey script version 0.1.10 - 2025-12-29
 
